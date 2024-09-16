@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Attestation.fs" />
+        <Compile Include="Async.fs" />
+        <Compile Include="Domain.fs" />
+        <Compile Include="GitHubVerify.fs" />
+        <Compile Include="ParsedAttestation.fs" />
+        <Compile Include="Result.fs" />
+        <Compile Include="Tuple.fs" />
+        <Compile Include="LoggerFactory.fs" />
+        <Compile Include="TempFile.fs" />
+        <Compile Include="NuGet.fs" />
+        <Compile Include="Process.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+      <PackageReference Include="NuGet.Protocol" Version="6.11.0" />
+      <PackageReference Include="Octokit" Version="13.0.1" />
+      <PackageReference Include="System.IO.Abstractions" Version="21.0.29" />
+    </ItemGroup>
+
+</Project>

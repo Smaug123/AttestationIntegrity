@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RepoIntegrity", "RepoIntegrity\RepoIntegrity.fsproj", "{9326BF8A-42AC-4764-874A-F606228A73DD}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RepoIntegrity.Test", "RepoIntegrity.Test\RepoIntegrity.Test.fsproj", "{809CE991-ED13-4F89-BB99-536000E80033}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RepoIntegrity.App", "RepoIntegrity.App\RepoIntegrity.App.fsproj", "{3E659C9C-6FBF-4862-939D-59E805DE1A55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9326BF8A-42AC-4764-874A-F606228A73DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9326BF8A-42AC-4764-874A-F606228A73DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9326BF8A-42AC-4764-874A-F606228A73DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9326BF8A-42AC-4764-874A-F606228A73DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809CE991-ED13-4F89-BB99-536000E80033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809CE991-ED13-4F89-BB99-536000E80033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809CE991-ED13-4F89-BB99-536000E80033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809CE991-ED13-4F89-BB99-536000E80033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E659C9C-6FBF-4862-939D-59E805DE1A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E659C9C-6FBF-4862-939D-59E805DE1A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E659C9C-6FBF-4862-939D-59E805DE1A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E659C9C-6FBF-4862-939D-59E805DE1A55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
